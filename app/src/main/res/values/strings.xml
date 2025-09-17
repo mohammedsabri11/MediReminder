@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">E.R.Helper</string>
+    <string name="app_name2">Welcome to  Expire Reader Helper</string>
+
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_about">About Us</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+
+
+    <!-- Example settings for Data & Sync -->
+
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+
+
+<string name="choose_from_gallery">Choose from gallery</string>
+<string name="take_a_photo">Take a photo</string>
+
+<string name="hello_world">Hello world!</string>
+
+</resources>
