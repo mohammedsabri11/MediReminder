@@ -20,16 +20,16 @@ public class MainActivity extends AppCompatActivity implements OnFragment  {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_aboutus:
-                    fragmentManager.beginTransaction().replace(R.id.container_fragment, new AboutUsFragment()).commit();
-                    return true;
-                case R.id.navigation_scan:
-                    startActivity(new Intent(MainActivity.this,ScanActivity.class));
-                    return true;
-                case R.id.navigation_settings:
-                    fragmentManager.beginTransaction().replace(R.id.container_fragment, new SettingsFragment()).commit();
-                    return true;
+            int itemId = item.getItemId();
+            if (itemId == R.id.navigation_aboutus) {
+                fragmentManager.beginTransaction().replace(R.id.container_fragment, new AboutUsFragment()).commit();
+                return true;
+            } else if (itemId == R.id.navigation_scan) {
+                startActivity(new Intent(MainActivity.this, ScanActivity.class));
+                return true;
+            } else if (itemId == R.id.navigation_settings) {
+                fragmentManager.beginTransaction().replace(R.id.container_fragment, new SettingsFragment()).commit();
+                return true;
             }
             return false;
         }
